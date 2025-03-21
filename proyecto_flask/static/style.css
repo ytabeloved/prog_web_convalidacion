@@ -23,7 +23,7 @@ h1 {
 }
 
 /* Botones */
-button {
+.button {
     background-color: #007BFF;
     color: white;
     border: none;
@@ -97,4 +97,34 @@ input {
     margin: 5px 0 15px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+/* Estilo base de los botones */
+button {
+    color: white;
+    border: none;
+    padding: 40px 20px 40px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+/* Botón Ejercicio 1 - Morado */
+.btn-ejercicio1 {
+    background-color: #c533ff; /* Morado */
+}
+
+.btn-ejercicio1:hover {
+    background-color: #2b19ce; /* azul al pasar el mouse */
+}
+
+/* Botón Ejercicio 2 - Verde */
+.btn-ejercicio2 {
+    background-color: #34db4a; /* Verde */
+}
+
+.btn-ejercicio2:hover {
+    background-color: #0fc5f3; /* celeste al pasar el mouse */
 }
