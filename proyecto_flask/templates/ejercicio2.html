@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Inicio de Sesión</h1>
+    <form method="POST">
+        Usuario: <input type="text" name="usuario" required><br>
+        Contraseña: <input type="password" name="contraseña" required><br>
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+    <p>{{ mensaje }}</p>
+</body>
+</html>

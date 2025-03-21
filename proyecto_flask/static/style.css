@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Encabezados */
+h1 {
+    color: #333;
+}
+
+/* Botones */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Formularios */
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Mensajes de resultado */
+.resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background: #e0ffe0;
+    color: #2d702d;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Mensaje de error */
+.error {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ffe0e0;
+    color: #702d2d;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Estilo para los formularios */
+form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Etiquetas (label) */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
